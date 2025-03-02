@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    color: rgb(234, 80, 106);
+}
+
+.form {
+    text-align: center;
+}
+
+#toDoForm {
+    width: 500px;
+    height: 20px;
+    border-radius: 20px;
+}
+
+#createTask {
+    height: 25px;
+    border-radius: 20px;
+    background-color: pink;
+}
+
+#taskList {
+    text-align: left;
+    margin-left: 650px;
+    list-style-position: inside;
+
+}
+
+.completed {
+    text-decoration: line-through;
+    color: rgb(129, 129, 129);
+}
