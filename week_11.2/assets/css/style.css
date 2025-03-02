@@ -1,0 +1,178 @@
+body {
+    margin-left: 15px;
+}
+
+#basket {
+    display: grid;
+    grid-template-rows: 320px 300px 300px 300px;
+    border: 20px;
+    border-color: black;
+}
+
+#product_1 {
+    grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: 250px 500px calc(100% - 850px);
+    align-items: center;
+    border-color: black;
+    border-style: groove;
+}
+
+.description_product_1 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+#image_1 {
+    height: 270px;
+}
+
+#product_2 {
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 250px 500px calc(100% - 850px);
+    align-items: center;
+    border-color: black;
+    border-style: groove;
+}
+
+.description_product_2 {
+    grid-column: 2 / 3;
+}
+
+#image_2 {
+    height: 200px;
+}
+
+#product_3 {
+    grid-row: 3 / 4;
+    display: grid;
+    grid-template-columns: 250px 500px calc(100% - 850px);
+    align-items: center;
+    border-color: black;
+    border-style: groove;
+}
+
+.description_product_3 {
+    grid-column: 2 / 3;
+}
+
+#product_4 {
+    grid-row: 4 / 5;
+    display: grid;
+    grid-template-columns: 250px 500px calc(100% - 850px);
+    align-items: center;
+    border-color: black;
+    border-style: groove;
+}
+
+.description_product_4 {
+    grid-column: 2 / 3;
+
+}
+
+#price_1 {
+    grid-column: 3 / 4;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 5px;
+}
+
+#price_2 {
+    grid-column: 3 / 4;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 5px;
+}
+
+#price_3 {
+    grid-column: 3 / 4;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 5px;
+}
+
+#price_4 {
+    grid-column: 3 / 4;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 5px;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.color,
+.size,
+.count {
+    font-size: 17px;
+    color: rgb(80, 80, 80);
+}
+
+.price {
+    color: violet;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#money {
+    color: violet;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.image {
+    width: 200px;
+    height: 267px;
+    padding-left: 5px;
+}
+
+#footer1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -50px;
+}
+
+#button {
+    width: 350px;
+    height: 80px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+#end {
+    font-size: 25px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+#result {
+    font-size: 28px;
+    color: violet;
+    float: right;
+    font-weight: bold;
+}
+
+#money1 {
+    color: violet;
+    font-size: 25px;
+    font-weight: bold;
+    float: right;
+}
+
+#price_end {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 5px;
+}
